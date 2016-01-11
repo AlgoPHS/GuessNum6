@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class GuessNum6 {
+<<<<<<< HEAD
     public static void main(String[]args) {
         Scanner scanner = new Scanner();
         do {
@@ -19,4 +20,11 @@ public class GuessNum6 {
         } while (yesorno == "y");
         
     }
+=======
+    public static int decision(int x, int r) {
+	return x - r;
+    }
+  public static void main(String[]args) {
+  }
+>>>>>>> 84a5f2c71b79028210e8823dd6277f681a0336df
 }
